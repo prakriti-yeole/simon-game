@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #2f70ff;
+    font-family: "Poppins", sans-serif;
+}
+
+/*👉.shortpoint-text-font {
+    font-weight: 600;
+    font-family: 'Fredoka One', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    color: #FFFFD9;
+    font-size: 60px;
+    text-shadow: #ff6239 1px 1px, #ff6339 2px 2px, #ff643a 3px 3px, #ff663a 4px 4px, #ff673b 5px 5px, #ff683c 6px 6px, #ff693c 7px 7px, #ff6a3d 8px 8px, #ff6b3d 9px 9px, #ff6c3e 10px 10px, #ff6e3f 11px 11px, #ff6f3f 12px 12px, #ff7040 13px 13px, #ff7140 14px 14px, #ff7241 15px 15px, #ff7342 16px 16px, #ff7442 17px 17px, #ff7643 18px 18px, #ff7743 19px 19px, #ff7844 20px 20px, #ff7945 21px 21px, #ff7a45 22px 22px, #ff7b46 23px 23px, #ff7c46 24px 24px, #ff7e47 25px 25px, #ff7f48 26px 26px, #ff8048 27px 27px, #ff8149 28px 28px, #ff8249 29px 29px, #ff834a 30px 30px, #ff844b 31px 31px, #ff864b 32px 32px, #ff874c 33px 33px, #ff884c 34px 34px, #ff894d 35px 35px, #ff8a4e 36px 36px, #ff8b4e 37px 37px, #ff8c4f 38px 38px, #ff8e4f 39px 39px, #ff8f50 40px 40px, #ff9051 41px 41px, #ff9151 42px 42px, #ff9252 43px 43px, #ff9352 44px 44px, #ff9453 45px 45px, #ff9654 46px 46px, #ff9754 47px 47px, #ff9855 48px 48px, #ff9955 49px 49px, #ff9a56 50px 50px, #ff9b57 51px 51px, #ff9c57 52px 52px, #ff9e58 53px 53px, #ff9f58 54px 54px, #ffa059 55px 55px, #ffa15a 56px 56px, #ffa25a 57px 57px, #ffa35b 58px 58px, #ffa45b 59px 59px, #ffa65c 60px 60px, #ffa75d 61px 61px, #ffa85d 62px 62px, #ffa95e 63px 63px, #ffaa5e 64px 64px, #ffab5f 65px 65px, #ffac60 66px 66px, #ffad60 67px 67px, #ffaf61 68px 68px, #ffb061 69px 69px, #ffb162 70px 70px, #ffb263 71px 71px, #ffb363 72px 72px, #ffb464 73px 73px, #ffb564 74px 74px, #ffb765 75px 75px, #ffb866 76px 76px, #ffb966 77px 77px, #ffba67 78px 78px, #ffbb67 79px 79px, #ffbc68 80px 80px, #ffbd69 81px 81px, #ffbf69 82px 82px, #ffc06a 83px 83px, #ffc16a 84px 84px, #ffc26b 85px 85px, #ffc36c 86px 86px, #ffc46c 87px 87px, #ffc56d 88px 88px, #ffc76d 89px 89px, #ffc86e 90px 90px, #ffc96f 91px 91px, #ffca6f 92px 92px, #ffcb70 93px 93px, #ffcc70 94px 94px, #ffcd71 95px 95px, #ffcf72 96px 96px, #ffd072 97px 97px, #ffd173 98px 98px, #ffd273 99px 99px, #ffd374 100px 100px, #ffd475 101px 101px, #ffd575 102px 102px, #ffd776 103px 103px, #ffd876 104px 104px, #ffd977 105px 105px, #ffda78 106px 106px, #ffdb78 107px 107px, #ffdc79 108px 108px, #ffdd79 109px 109px, #ffdf7a 110px 110px, #ffe07b 111px 111px, #ffe17b 112px 112px, #ffe27c 113px 113px, #ffe37c 114px 114px, #ffe47d 115px 115px, #ffe57e 116px 116px, #ffe77e 117px 117px, #ffe87f 118px 118px, #ffe97f 119px 119px, #ffea80 120px 120px, #FF6138 0px 0px;
+      background: #FFEA80;
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+👈*/
+
+/*👉h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}👈*/
+h1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    /*👉 position: absolute;👈*/
+    /*👉 transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;👈*/
+    margin-bottom: 40px;
+    font-size: 3rem;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    transition: text-shadow 1s;
+    text-shadow: 0.02em 0.02em #15234f, 0.04em 0.04em #0ce60c, 0.08em 0.08em #950303,
+        0.12em 0.12em #fdf21f, 0.2em 0.2em #3462fe;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    height: 37.5em;
+    width: 37.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.5em;
+}
+
+.simon {
+    height: 31.25em;
+    width: 31.25em;
+    background-color: #101010;
+    border-radius: 50%;
+    position: absolute;
+    /*👉 to center any div👈*/
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.color-part {
+    height: 13.12em;
+    width: 13.12em;
+    position: absolute;
+    cursor: pointer;
+}
+
+.color1 {
+    background-color: #068e06;
+    /*👉027802;👈*/
+    border-radius: 13em 0 0 0;
+    top: 1.87em;
+    left: 1.87em;
+}
+
+.color2 {
+    background-color: #950303;
+    border-radius: 0 13em 0 0;
+    top: 1.87em;
+    right: 1.87em;
+}
+
+.color3 {
+    background-color: #01018a;
+    bottom: 1.87em;
+    right: 1.87em;
+    border-radius: 0 0 13em 0;
+}
+
+.color4 {
+    background-color: #919102;
+    bottom: 1.87em;
+    left: 1.87em;
+    border-radius: 0 0 0 13em;
+}
+
+.simon:before {
+    position: absolute;
+    content: "";
+    background-color: #101010;
+    height: 13.75em;
+    width: 13.75em;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+}
+
+.cnt {
+    background-color: #ffffff;
+    font-size: 2.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    height: 2em;
+    width: 3em;
+    display: grid;
+    place-items: center;
+    border-radius: 0.3em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    background-color: #2f70ff;
+    position: absolute;
+    top: 0;
+    min-height: 100vh;
+    width: 100vw;
+
+    /*👉another way of centering any div with many children👈*/
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.container button {
+    background-color: #ffffff;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    padding: 1em 2em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.container p {
+    font-size: 1em;
+    color: #ffffff;
+    margin-bottom: 1em;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+}
+
+.container span {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+
+    .wrapper {
+        height: 35em;
+        width: 35em;
+    }
+}
